@@ -39,9 +39,9 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
+                src="/assets/arrow-up.png"
+                alt="view_code"
+                className="w-3 h-3"
               />
             </div>
           </div>

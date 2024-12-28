@@ -199,9 +199,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Google Docs Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A sleek, real-time document editing platform built with TypeScript and Next.js. This application replicates the core functionality of Google Docs, allowing users to create, edit, and share documents seamlessly.",
     tags: [
       {
         name: "react",
@@ -217,12 +217,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://jsm-live-docs.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Care Plus",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management.",
     tags: [
       {
         name: "react",
@@ -238,12 +238,12 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://care-pulse-app.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Horizon",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts and monitor real-time transactions.",
     tags: [
       {
         name: "nextjs",
@@ -259,7 +259,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://bankinghorizon.vercel.app/",
   },
 ];
 
