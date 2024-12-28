@@ -6,8 +6,12 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import useAlert from "../hooks/useAlert.jsx";
+import Alert from "../components/Alert.jsx";
 
 const Contact = () => {
+  const { alert, showAlert, hideAlert } = useAlert();
+
   const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
@@ -79,6 +83,7 @@ const Contact = () => {
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
     >
+      {alert.show && <Alert {...alert} />}
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
