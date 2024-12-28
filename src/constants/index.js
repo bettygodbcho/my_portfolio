@@ -19,10 +19,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
+  docsclone,
 } from "../assets";
 
 export const navLinks = [
@@ -216,7 +216,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: docsclone,
     source_code_link: "https://jsm-live-docs.vercel.app/",
   },
   {
